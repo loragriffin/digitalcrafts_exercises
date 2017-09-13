@@ -63,3 +63,9 @@ for i in range(len(matrix1)):
 
 for r in result:
     print(r)
+
+#11 - De-dup
+list1 = [1, 1, 3, 4, 6, 6]
+list2 = (list(set(list1)))
+
+print(list2)
