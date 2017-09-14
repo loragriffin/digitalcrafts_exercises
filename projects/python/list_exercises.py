@@ -52,7 +52,8 @@ for i in range(len(matrix1)):
 for r in result:
     print(r)
 
-#10 - Matrix Addition II - not clear on how or why this should differ from the previous exercise
+#10 - Matrix Addition II - not clear on how or why this should differ
+#from the previous exercise
 matrix1 = [[2, -2, 1, 0], [5, 3, 2, 4]]
 matrix2 = [[2, 3, 4, 5], [-1, 0, 3, 1]]
 result = [[0, 0, 0, 0], [0, 0, 0, 0]]
