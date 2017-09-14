@@ -47,3 +47,37 @@ def stars2():
 
 for x in range(star):
     stars2()
+
+#6 - print a box
+print('--------\nMake a box')
+
+width = int(input('Width: '))
+height = int(input('Height: '))
+
+print('*' * width)
+
+spaces = '' * (width - 2)
+for n in range(height - 2):
+    print('*', spaces, '*')
+
+print('*' * width)
+
+#7 - triangle
+print('--------\nChristmas Tree')
+
+height = 5
+
+for x in range(0, height):
+    space = height - x - 1
+    star = x * 2 + 1
+    print(' ' * space, '*' * star)
+
+#8 - print a triangle II
+print('--------\nMake your own!')
+
+height = int(input('How tall would you like your tree to be? '))
+
+for x in range(0, height):
+    space = height - x - 1
+    star = x * 2 + 1
+    print(' ' * space, '*' * star)
