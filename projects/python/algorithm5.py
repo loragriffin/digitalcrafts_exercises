@@ -12,5 +12,5 @@ while len(primelist) < 1000:
          primelist.append(i)
     i += 1
 
-print(primelist)
+# print(primelist)
 print(primelist[-1])
