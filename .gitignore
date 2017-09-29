@@ -1,0 +1,8 @@
+List of file git will ignore when committing
+.DS_Store
+projects/.DS_Store
+projects/notes/.DS_Store
+projects/notes/debugging_notes.py
+projects/notes/matrix_addition_notes.py
+projects/notes/string_notes.py
+projects/python/.DS_Store
