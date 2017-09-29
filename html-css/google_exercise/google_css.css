@@ -1,0 +1,36 @@
+.search {
+  display: block;
+  text-align: center;
+}
+
+div.searchbox {
+  height: 30px;
+  width: 500px;
+  border: 1px solid rgb(242, 242, 242);
+  padding: 10px 2px 0 2px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: arial, sans-serif;
+  color: rgb(200, 200, 200);
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+  margin: 5 auto;
+}
+
+ul li {
+  float: left;
+  width: auto;
+  height: 25px;
+  background-color: rgb(242, 242, 242);
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  margin: 0 5px;
+  color: rgb(117, 117, 117);
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+}
